@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="my-11 flex flex-wrap gap-5">
           <div className="flex items-center gap-2">
             {Array(5)
-              .fill()
+              .fill(null)
               .map((_, index) => (
                 <Image
                   key={index}
